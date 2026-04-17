@@ -175,7 +175,25 @@ CMD ["python", "main.py"]
 git init
 git add .
 git commit -m "Initial setup"
+git push
 ```
+
+Some othe commands to check out your git status: 
+
+```bash
+git status
+git branch --show-current
+git remote -v
+git log --oneline -5
+git push
+```
+Here is how to read the result:
+
+git status should ideally say nothing to commit, working tree clean
+git branch --show-current shows which branch you committed on
+git remote -v shows which GitHub repository the Codespace is connected to
+git log --oneline -5 shows whether your commit actually exists
+git push sends the commit to GitHub if it has not been pushed yet
 
 ---
 
