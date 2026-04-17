@@ -189,11 +189,11 @@ git push
 ```
 Here is how to read the result:
 
-git status should ideally say nothing to commit, working tree clean
-git branch --show-current shows which branch you committed on
-git remote -v shows which GitHub repository the Codespace is connected to
-git log --oneline -5 shows whether your commit actually exists
-git push sends the commit to GitHub if it has not been pushed yet
+ - git status should ideally say nothing to commit, working tree clean
+ - git branch --show-current shows which branch you committed on
+ - git remote -v shows which GitHub repository the Codespace is connected to
+ - git log --oneline -5 shows whether your commit actually exists
+ - git push sends the commit to GitHub if it has not been pushed yet
 
 ---
 
